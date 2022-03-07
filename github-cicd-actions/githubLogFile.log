@@ -1,0 +1,16 @@
+2022-03-07 09:42:42.833  INFO 12344 --- [restartedMain] c.g.com.GithubCicdActionsApplication     : Starting GithubCicdActionsApplication using Java 11.0.13 on DESKTOP-RU4H025 with PID 12344 (E:\Spring\SpringbootWorkSpace\github-cicd-actions\target\classes started by belal in E:\Spring\SpringbootWorkSpace\github-cicd-actions)
+2022-03-07 09:42:42.834  INFO 12344 --- [restartedMain] c.g.com.GithubCicdActionsApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-03-07 09:42:42.894  INFO 12344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-07 09:42:42.894  INFO 12344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-07 09:42:43.860  INFO 12344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-07 09:42:43.869  INFO 12344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-07 09:42:43.870  INFO 12344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-07 09:42:43.925  INFO 12344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-07 09:42:43.925  INFO 12344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2022-03-07 09:42:44.238  INFO 12344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-07 09:42:44.292  INFO 12344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-07 09:42:44.301  INFO 12344 --- [restartedMain] c.g.com.GithubCicdActionsApplication     : Started GithubCicdActionsApplication in 1.941 seconds (JVM running for 3.118)
+2022-03-07 09:44:23.861  INFO 12344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 09:44:23.862  INFO 12344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-07 09:44:23.863  INFO 12344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-07 10:06:09.310  INFO 12344 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
