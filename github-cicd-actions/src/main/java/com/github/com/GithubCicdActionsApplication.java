@@ -12,7 +12,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("Hi/{name}")
 	public String callHi(@PathVariable(name = "name") String name) {
-		return " Hi " + name;
+		return " Hi  ya " + name;
 	}
 
 	public static void main(String[] args) {
