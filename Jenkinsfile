@@ -4,6 +4,7 @@ pipeline{
     stage("build"){
       steps{
       echo "build application stage ..."
+        echo " belal test it "
       }
     }
     stage("test"){
