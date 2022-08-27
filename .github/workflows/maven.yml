@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file github-cicd-actions/pom.xml
     - name: SonarCloud Scan
       # You may pin to the exact commit or the version.
       # uses: SonarSource/sonarcloud-github-action@de2e56b42aa84d0b1c5b622644ac17e505c9a049
@@ -32,4 +32,4 @@ jobs:
         # Additional arguments to the sonarcloud scanner
         #args: # optional
         # Set the sonar.projectBaseDir analysis property
-        projectBaseDir: ./src/
+        projectBaseDir: /github-cicd-actions/src/
